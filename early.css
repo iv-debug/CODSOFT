@@ -1,0 +1,50 @@
+{ margin: 0;
+  padding: 0;
+  }
+
+header {
+        background-color: #A9A9A9;
+        height: 190vh;
+        background-size: cover;
+        background-position: center;
+}
+
+ul{
+        float: left;
+        list-style-type: none;
+}
+
+ul li{
+        display: inline-block;
+}
+
+ul li a{
+        text-decoration: none;
+        color: #000000;
+        padding: 5px 20px;
+        border: 1px solid #000000;
+}
+
+ul li a:hover{
+        background-color: #fff;
+        color:#000;
+}
+
+.title{
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%,-50%)
+}
+
+.title h1{
+        color:#D2691E;
+        font-size: 100 px;
+		font-family: Monospace;
+}
+
+p{
+	color: #DC143C;
+    font-size: 15px;
+	font-family: "Lucida Handwriting";
+}
